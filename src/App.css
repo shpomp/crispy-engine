@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.quote-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-text-and-author {
+  background-color: rgba(254, 254, 254, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 30vh;
+  width: 50vw;
+  border-radius: 5px;
+}
+.quote-text-and-author div {
+  padding: 15px;
+}
+
+button {
+  background-color: rgba(254, 254, 254, 0.7);
+  border-radius: 5px;
+  border: none;
+}
+
+.quote-text span,
+.quote-author span {
+  animation: fadeInAnimation 0.5s;
+}
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
