@@ -29,7 +29,6 @@ export const App = () => {
       className="App"
       style={{
         backgroundColor: "#" + color,
-        transition: "all .5s ease",
       }}
     >
       <div>
@@ -39,7 +38,6 @@ export const App = () => {
               className="quote-text-and-author"
               style={{
                 color: "#" + color,
-                transition: "all .5s ease",
               }}
             >
               {" "}
@@ -72,7 +70,6 @@ export const App = () => {
               }}
               style={{
                 color: "#" + color,
-                transition: "all .5s ease",
               }}
             >
               <span
